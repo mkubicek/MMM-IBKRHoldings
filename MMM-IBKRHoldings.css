@@ -1,0 +1,27 @@
+.MMM-IBKRHoldings .ibkr-holdings { max-width: 100%; text-align: left; font-size: 16px; line-height: 1.25; color: #eee; }
+.MMM-IBKRHoldings .ih-title { display: flex; justify-content: space-between; align-items: baseline; text-transform: uppercase; font-size: 15px; line-height: 15px; color: #999; border-bottom: 1px solid #666; padding-bottom: 5px; margin-bottom: 6px; }
+.MMM-IBKRHoldings .ih-range { font-size: 11px; text-transform: none; color: #999; white-space: nowrap; }
+.MMM-IBKRHoldings .ih-health { font-size: 11px; text-transform: none; color: #999; white-space: nowrap; }
+.MMM-IBKRHoldings .ih-live { color: #a1b5a3; }
+.MMM-IBKRHoldings .ih-warning { color: #ffb16e; }
+.MMM-IBKRHoldings .ih-meta { font-size: 12px; color: #aaa; }
+.MMM-IBKRHoldings .ih-row { display: flex; align-items: center; gap: 12px; padding: 5px 0; }
+.MMM-IBKRHoldings .ih-label { width: 110px; min-width: 0; flex: none; }
+.MMM-IBKRHoldings .ih-symbol { font-weight: 600; font-size: 18px; }
+.MMM-IBKRHoldings .ih-name { font-size: 13px; color: #999; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.MMM-IBKRHoldings .ih-chart { flex: none; display: block; overflow: visible; }
+.MMM-IBKRHoldings .ih-numbers { width: 86px; flex: none; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.MMM-IBKRHoldings .ih-price { font-size: 18px; }
+.MMM-IBKRHoldings .ih-change { font-size: 14px; font-weight: 600; }
+.MMM-IBKRHoldings .ih-break { stroke: #2a2a2a; stroke-width: 1; }
+.MMM-IBKRHoldings .ih-reference { stroke: #666; stroke-width: 1; stroke-dasharray: 1.5 2.5; }
+.MMM-IBKRHoldings .ih-line { fill: none; stroke-width: 1.4; stroke-linejoin: round; }
+.MMM-IBKRHoldings .ih-area { stroke: none; opacity: 0.2; }
+.MMM-IBKRHoldings .ih-line.ih-up { stroke: #22c55e; }
+.MMM-IBKRHoldings .ih-line.ih-down { stroke: #ef4444; }
+.MMM-IBKRHoldings .ih-area.ih-up, .MMM-IBKRHoldings .ih-dot.ih-up { fill: #22c55e; }
+.MMM-IBKRHoldings .ih-area.ih-down, .MMM-IBKRHoldings .ih-dot.ih-down { fill: #ef4444; }
+.MMM-IBKRHoldings .ih-dot.ih-flat { fill: #a3a3a3; }
+.MMM-IBKRHoldings .ih-change.ih-up { color: #22c55e; }
+.MMM-IBKRHoldings .ih-change.ih-down { color: #ef4444; }
+.MMM-IBKRHoldings .ih-change.ih-flat { color: #a3a3a3; }

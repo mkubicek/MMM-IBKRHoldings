@@ -1,0 +1,46 @@
+{
+  "name": "mmm-ibkrholdings",
+  "version": "1.0.0",
+  "description": "MagicMirror² module listing your Interactive Brokers holdings with Yahoo-style 7-day or intraday charts, without quantities or values",
+  "main": "MMM-IBKRHoldings.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": "Milan Kubicek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkubicek/MMM-IBKRHoldings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkubicek/MMM-IBKRHoldings/issues"
+  },
+  "homepage": "https://github.com/mkubicek/MMM-IBKRHoldings#readme",
+  "keywords": [
+    "magicmirror",
+    "magicmirror-module",
+    "magicmirror2",
+    "interactive-brokers",
+    "ibkr",
+    "flex-query",
+    "stocks",
+    "portfolio",
+    "sparkline",
+    "yahoo-finance"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node demo/server.js"
+  },
+  "files": [
+    "MMM-IBKRHoldings.js",
+    "MMM-IBKRHoldings.css",
+    "node_helper.js",
+    "holdings.js",
+    "sources.js",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}

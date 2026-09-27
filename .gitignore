@@ -1,0 +1,10 @@
+node_modules/
+*.local.json
+.DS_Store
+*.tgz
+# Never commit credentials, statements or caches (they belong in ~/.config/MMM-IBKRHoldings/).
+credentials.json
+cache.json
+backoff.json
+*.flex.csv
+*.flex.xml
